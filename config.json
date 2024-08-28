@@ -1,0 +1,9 @@
+{
+  "gemName": "stable_diffusion",
+  "moduleName": "StableDiffusion",
+  "gemVersion": "0.1.0",
+  "gemAuthor": "Ayanga Okpokowuruk",
+  "gemAuthorEmail": "ayanga@aok-solutions.com",
+  "gemHomepage": "https://github.com/aok-solutions/stable_diffusion",
+  "gemLicense": "Apache-2.0"
+}
