@@ -141,7 +141,7 @@ module StableDiffusion
       if attributes.key?(:'resize_mode')
         self.resize_mode = attributes[:'resize_mode']
       else
-        self.resize_mode = RESIZE_MODE.0
+        self.resize_mode = 0
       end
 
       if attributes.key?(:'show_extras_results')

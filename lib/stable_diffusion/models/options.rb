@@ -1918,7 +1918,7 @@ module StableDiffusion
       if attributes.key?(:'sd_vae_explanation')
         self.sd_vae_explanation = attributes[:'sd_vae_explanation']
       else
-        self.sd_vae_explanation = '<abbr title='Variational autoencoder'>VAE</abbr> is a neural network that transforms a standard <abbr title='red/green/blue'>RGB</abbr> image into latent space representation and back. Latent space representation is what stable diffusion is working on during sampling (i.e. when the progress bar is between empty and full). For txt2img, VAE is used to create a resulting image after the sampling is finished. For img2img, VAE is used to process user's input image before the sampling, and to create an image after sampling.'
+        self.sd_vae_explanation = "<abbr title='Variational autoencoder'>VAE</abbr> is a neural network that transforms a standard <abbr title='red/green/blue'>RGB</abbr> image into latent space representation and back. Latent space representation is what stable diffusion is working on during sampling (i.e. when the progress bar is between empty and full). For txt2img, VAE is used to create a resulting image after the sampling is finished. For img2img, VAE is used to process user's input image before the sampling, and to create an image after sampling."
       end
 
       if attributes.key?(:'sd_vae_checkpoint_cache')

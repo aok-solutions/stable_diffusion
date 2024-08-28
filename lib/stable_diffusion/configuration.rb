@@ -125,8 +125,8 @@ module StableDiffusion
     attr_accessor :force_ending_format
 
     def initialize
-      @scheme = 'http'
-      @host = 'unstable-diffusion.ai'
+      @scheme = 'https'
+      @host = ENV.fetch("STABLE_DIFFUSION_HOST")
       @base_path = '/'
       @api_key = {}
       @api_key_prefix = {}
